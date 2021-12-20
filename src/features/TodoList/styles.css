@@ -1,0 +1,43 @@
+.todo-list .ant-checkbox-checked ~ span {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.todo-list {
+	text-align: center;
+}
+
+.todo-list .ant-form {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 8px;
+}
+
+.todo-list .ant-form-item {
+	margin: 0;
+}
+
+.ul-todo-list {
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.li-todo-list {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.li-todo-list .ant-checkbox-wrapper {
+	width: 100%;
+}
+
+.li-todo-list .ant-btn {
+	padding: 8px;
+	background: transparent;
+	border: none;
+	display: flex;
+}

@@ -1,0 +1,57 @@
+.logo {
+	height: 32px;
+	margin: 16px;
+	background: rgba(255, 255, 255, 0.3);
+}
+.dashboard-content {
+	padding: 16px;
+	overflow-y: auto;
+	height: calc(100vh - 64px);
+	width: 100%;
+}
+
+.ant-card {
+	border-radius: 16px;
+}
+
+h1.ant-typography,
+h2.ant-typography,
+h3.ant-typography,
+h4.ant-typography,
+h5.ant-typography,
+h6.ant-typography,
+.ant-typography + h1.ant-typography,
+.ant-typography + h2.ant-typography,
+.ant-typography + h3.ant-typography,
+.ant-typography + h4.ant-typography,
+.ant-typography + h5.ant-typography,
+p {
+	margin: 0;
+}
+
+
+
+h1.ant-typography,
+.ant-typography h1,
+h1 {
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+h2.ant-typography,
+.ant-typography h2,
+h2 {
+	font-size: 26px;
+}
+
+h3.ant-typography,
+.ant-typography h3,
+h3 {
+	font-size: 18px;
+}
+
+h4.ant-typography,
+.ant-typography h4,
+h4 {
+	font-size: 16px;
+}
